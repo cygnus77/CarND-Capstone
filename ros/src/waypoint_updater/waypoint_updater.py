@@ -248,7 +248,7 @@ class WaypointUpdater(object):
         Therefore for any arbitrary u, s = -u^2 / 2*a.
         Add to that the distance from light (30m)         
         """
-        return ((self.velocity**2) / (2*2.1)) + 35
+        return ((self.velocity**2) / (2*2.1)) + 32
 
     # Callback to recieve velocity messages
     def velocity_cb(self, vel):
