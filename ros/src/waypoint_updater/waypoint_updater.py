@@ -25,7 +25,7 @@ as well as to verify your TL classifier.
 
 '''
 TIME_PERIOD_PUBLISHED = 4. #sec
-LOOKAHEAD_WPS = 10 # Number of waypoints we will publish. You can change this number
+LOOKAHEAD_WPS = 8 # Number of waypoints we will publish. You can change this number
 TIME_STEP = TIME_PERIOD_PUBLISHED / LOOKAHEAD_WPS
 LIGHT_GREEN = 2
 
